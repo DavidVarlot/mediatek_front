@@ -1,0 +1,18 @@
+.ListFilm {
+    text-align: left;
+  }
+
+.barreFiltres {
+  /* background-color: lightgray; */
+  width: 100%;
+  min-height: 42px;
+  padding: 5px 0px 0px 2px;
+}
+
+.tagsListe {
+  position: absolute;
+    bottom: 103px;
+    left: 14px;
+    right: 0;
+
+}

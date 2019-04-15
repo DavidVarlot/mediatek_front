@@ -1,10 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import Store from './store/configureStore';
+
+import { render } from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import './index.css';
-import App from './App';
+import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/js/materialize'
+
+import Header from './component/Header/Header';
+import Routes from './routes';
+
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(
+    <Provider store={Store}>
+        <div className="container ">
+            <Header />
+            <Routes />
+        </div>
+    </Provider>
+    , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
