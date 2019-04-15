@@ -60,3 +60,9 @@ color: #ffab40;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 100% !important;
+  }
+}
