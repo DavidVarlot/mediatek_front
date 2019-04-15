@@ -35,6 +35,16 @@ color: #ffab40;
   src: url(http://localhost:3000/icons.woff2) format('woff2');
 }
 
+/** override materialize**/
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  margin-right: 8px !important;
+}
+
+.card .card-action {
+  padding: 16px 10px !important;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
