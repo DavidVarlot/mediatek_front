@@ -69,7 +69,7 @@ class ListFilm extends React.Component<any, any> {
                                 <div className="card small grey darken-2 " key={f.titre}>
                                     <div className="card-content white-text">
                                         <span className="card-title">{f.titre}</span>
-                                        <p className="truncate">{f.synopsis}</p>
+                                        <p className="">{f.synopsis}</p>
                                     </div>
                                     <div className="tagsListe">{f.genre === undefined ? '' : <a href='#' onClick={() =>
                                         f.genre === undefined ? '' : this.trieFilmByGenre(f.genre)}

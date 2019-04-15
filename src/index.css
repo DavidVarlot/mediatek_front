@@ -53,6 +53,10 @@ color: #ffab40;
 .card .card-content {
   padding: 24px 12px !important;
 }
+.card .card-content p {
+  font-size: 13px;
+  color: silver;
+}
 
 .material-icons {
   font-family: 'Material Icons';

@@ -11,8 +11,9 @@
 
 .tagsListe {
   position: absolute;
-    bottom: 74px;
-    left: 14px;
-    right: 0;
-
+  bottom: 67px;
+  left: 0;
+  right: 0;
+  background-color: #616161;
+  padding: 3px 0 3px 11px;
 }
