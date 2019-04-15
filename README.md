@@ -7,3 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * 3 : exécuter ensuite classiquement la commande "npm install" et "npm start" pour lancer le programme
 * 4 : veuillez simplement ajouter quelques genres de films (cliquer sur "genres" depuis le header), le validateur du formulaire 
 empêche la création de film
+
+Le projet est réalisé en TypeScript et utilise les packages suivants :
+* react-router
+* axios
+* materialize-css
+* redux
