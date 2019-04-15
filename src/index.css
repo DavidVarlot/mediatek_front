@@ -37,12 +37,21 @@ color: #ffab40;
 
 /** override materialize**/
 
+/*CARD*/
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
   margin-right: 8px !important;
 }
 
 .card .card-action {
   padding: 16px 10px !important;
+}
+
+.card .card-title {
+  font-size: 20px !important;
+}
+
+.card .card-content {
+  padding: 24px 12px !important;
 }
 
 .material-icons {
