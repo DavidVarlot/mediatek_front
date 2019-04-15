@@ -19,7 +19,7 @@ class Header extends React.Component<any, any> {
                 <div className="row">
                     <nav className="grey darken-2">
                         <div className="nav-wrapper">
-                            <a href="#" className="brand-logo right hide-on-med-and-up">Filmothèque</a>
+
                             <a href="#" className="brand-logo center hide-on-small-only">Filmothèque</a>
                             <ul id="nav-mobile" className="left">
                                 <li><a href="/"><i className="material-icons" >home</i></a></li>

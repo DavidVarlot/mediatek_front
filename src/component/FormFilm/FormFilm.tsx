@@ -108,9 +108,9 @@ class FormFilm extends Component<any, any> {
         let message: string = '';
         let isValid: boolean = true;
 
-        if (this._inputSynopsis.current.value && this._inputSynopsis.current.value.length > 500) {
+        if (this._inputSynopsis.current.value && this._inputSynopsis.current.value.length > 2000) {
             isValid = false;
-            message = 'Le synopsis de noit pas dépasser 500 caractères';
+            message = 'Le synopsis de noit pas dépasser 2000 caractères';
         }
         this.setState({ synopsisValidateMessage: message, synopsisValidate: isValid });
         return isValid;
