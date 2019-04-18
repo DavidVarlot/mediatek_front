@@ -58,6 +58,10 @@ color: #ffab40;
   color: silver;
 }
 
+button, input, optgroup, select, textarea { 
+  color: black;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
