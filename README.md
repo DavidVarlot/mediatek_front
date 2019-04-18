@@ -13,3 +13,6 @@ Le projet est réalisé en TypeScript et utilise les packages suivants :
 * axios
 * materialize-css
 * redux
+
+#En cas de "permission denied"
+chmod +x node_modules/.bin/react-scripts
